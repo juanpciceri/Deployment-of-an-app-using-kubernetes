@@ -1,7 +1,7 @@
 # Deployment-of-an-app-using-kubernetes
 This repository shows how to deploy an nginx app using kubernetes. The deployed app has got 3 replicas.
 
-On the CLI you must execute the following commands to put your application up and running.
+On the CLI you must execute the following commands to put your application up and running. Remember to put webserver.yaml on your server.
 
 $  kubectl create -f webserver.yaml
 
