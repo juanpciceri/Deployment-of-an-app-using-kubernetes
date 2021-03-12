@@ -21,3 +21,9 @@ webserver-b477df957-xvdkf   1/1       Running   0          2m
 $ kubectl create -f webserver-svc.yaml
 
 service/web-service created
+
+Expose a Deployment with the kubectl expose command:
+
+$ kubectl expose deployment webserver --name=web-service --type=NodePort
+
+service/web-service exposed
